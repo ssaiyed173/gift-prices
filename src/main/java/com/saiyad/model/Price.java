@@ -3,6 +3,7 @@ package com.saiyad.model;
 import java.time.LocalDate;
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -18,6 +19,7 @@ public class Price {
 	@GeneratedValue
 	private long id;
 	
+	@Column(name="show_name")
 	private String show;
 
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
@@ -25,7 +27,10 @@ public class Price {
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date creditDate;
 	private boolean credited;
+	
+	@Column(name="price_type")
 	private String type;
+
 	private int amount;
 	public long getId() {
 		return id;
