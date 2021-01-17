@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: gift-prices
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: compac
+Implementation-Vendor-Id: com.saiyad
+Build-Jdk: 1.8.0_261
+Implementation-URL: https://spring.io/projects/spring-boot/gift-prices
+Created-By: Maven Integration for Eclipse
+
