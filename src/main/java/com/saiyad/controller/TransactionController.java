@@ -27,8 +27,7 @@ public class TransactionController {
 	public ModelAndView transactionGiftVoucher(@ModelAttribute Transaction transaction){
 		ModelAndView model = new ModelAndView("index");
 		BalanceSheet balance = balanceSheetRepository.findById(1L).get();
-		String name = null;
-		name.toString();
+		
 		if(transaction.getType().equals("CR")){
 			balance.setGv(balance.getGv() + transaction.getAmount());
 		}else if(transaction.getType().equals("WD")){
