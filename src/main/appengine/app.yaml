@@ -1,4 +1,6 @@
 runtime: java
-runtime_config: 
-  jdk: openjdk8
-instance_class: F1
+env: flex
+
+handlers
+  -url: /.*
+  script: 
