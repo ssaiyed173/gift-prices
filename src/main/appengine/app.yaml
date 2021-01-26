@@ -1,4 +1,5 @@
 runtime: java
 env: flex
 handlers:
+  - url: /index
     script: 
