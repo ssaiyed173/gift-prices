@@ -71,7 +71,7 @@
 		        <version>1.3.2</version>
 		        <configuration>
 		          <version>1</version>
-		          <projectId>gift-prices</projectId>
+		          <project>gift-prices</project>
 		        </configuration>
 		      </plugin>	
 		</plugins>
