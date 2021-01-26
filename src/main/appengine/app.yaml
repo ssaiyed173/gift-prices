@@ -1,5 +1,2 @@
 runtime: java
 env: flex
-handlers:
-  - url: /.*
-    script: 
