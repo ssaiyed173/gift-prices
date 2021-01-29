@@ -41,7 +41,7 @@
 	<div class="container">
 		<h2>Dashboard</h2>
 		<br />
-		<div class="row">
+		<div class="row" style="padding-left:1em; padding-right:1em;">
 			<div class="col-md-3" style="box-shadow: 0px 0px 5px 0px">
 				<h3 class="text-warning">Gift Voucher Balance</h3>
 				<hr />
@@ -60,7 +60,7 @@
 			</div>
 		</div>
 		<br />
-		<div class="row">
+		<div class="row" style="padding-left:1em; padding-right:1em;">
 			<div class="col-md-3" style="box-shadow: 0px 0px 5px 0px">
 				<h3 class="text-warning">Super Coin Balance</h3>
 				<hr />
